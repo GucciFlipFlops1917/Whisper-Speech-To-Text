@@ -3,5 +3,8 @@ pyaudio
 pyperclip
 numpy
 scipy
-openai-whisper
-#recommended:torch+cuda
+tqdm
+more-itertools
+transformers>=4.19.0
+ffmpeg-python==0.2.0
+torch #recommended:torch+cuda
