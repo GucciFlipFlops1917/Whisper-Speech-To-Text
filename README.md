@@ -12,6 +12,10 @@ I also strongly encourage the installation of PyTorch with CUDA:
 
 `pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117`
 
+If you choose to use PyTorch with your CPU instead, please run:
+
+`pip install torch`
+
 ## Usage
 Most input arguments carry over from the base Whisper package.
 
