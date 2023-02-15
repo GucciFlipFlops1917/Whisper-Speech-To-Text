@@ -1,0 +1,7 @@
+keyboard
+pyaudio
+pyperclip
+numpy
+scipy
+openai-whisper
+#recommended:torch+cuda
