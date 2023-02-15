@@ -47,7 +47,6 @@ model_name: str = args.pop("model")
 model_dir: str = args.pop("model_dir")
 amplification = args.pop("amplification")
 device: str = args.pop("device")
-os.makedirs(output_dir, exist_ok=True)
 
 if model_name.endswith(".en") and args["language"] not in {"en", "English"}:
     if args["language"] is not None:
