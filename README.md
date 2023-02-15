@@ -1,5 +1,5 @@
 # Whisper-Speech-To-Text
-This is an implementation of OpenAI's Whisper for the purpose of speech-to-text via default microphone, enabling direct output to clipboard.
+This is an implementation of OpenAI's Whisper for the purpose of speech-to-text via your default microphone, enabling direct output to your clipboard and/or CLI. In addition, the script records and inferences with the press of a desired keystroke combination.
 
 ## Installation
 Installation is as easy as: 
@@ -8,7 +8,9 @@ Installation is as easy as:
 
 `pip install -r requirements.txt`
 
-I also strongly encourage the installation of PyTorch with cuda.
+I also strongly encourage the installation of PyTorch with CUDA:
+
+`pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117`
 
 ## Usage
 Most input arguments carry over from the base Whisper package.
