@@ -6,6 +6,7 @@ from scipy.io import wavfile
 import os.path
 import argparse
 import warnings
+import torch
 from whisper import load_model, available_models
 from whisper.transcribe import transcribe
 from whisper.model import Whisper
